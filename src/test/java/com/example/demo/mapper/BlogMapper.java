@@ -7,6 +7,7 @@ import java.util.List;
 
 @Mapper
 public interface BlogMapper {
+
     Blog selectBlog(int id);
 
     List<Blog> selectAll();
